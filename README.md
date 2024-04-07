@@ -1,7 +1,7 @@
 # AWS Cloud Native Web Application And Infrastructure as Code
 This repository contains links to my python web application and AWS infrastructure code configurations. In this project I tried to separate my application , infrastructure code and lambda function code in separate respositories as per the best deployment practices and utilized the github actions to create and end to end deployment cycle for my application.
 Below are the repository names and links to them -
-1. Infrastructure - https://github.com/sagar-malhotra/infrastructure
+##1. Infrastructure - https://github.com/sagar-malhotra/infrastructure
 The infrastructure repository contains the cloudformation template the is being used to provision all the AWS infrastructure elements needed for the python application deployment and security. Please visit the link for more information on the repository.
 
 - AWS CloudFormation
@@ -14,7 +14,7 @@ SNS (Simple Notification Service) Topic, Auto Scaling Group, CloudWatch Alarms f
   - GitHub Actions workflow to continuously integrate and deploy the application.
   - Automates Amazon Machine Image (AMI) creation upon each code commit.
 
-3. WebApp - https://github.com/sagar-malhotra/webapp
+##2. WebApp - https://github.com/sagar-malhotra/webapp
 The webapp repository cotains the python application code to be deployed along with the github action workflows. For more information on the webapp and deployment please visit the link attached above.
 
 Functionality of Web Applications
@@ -32,7 +32,5 @@ Functionality of Web Applications
   - Simplifying the dispatch of verification emails via AWS SES.
   - Maintaining thorough records of email activities and tokens using DynamoDB.
 
-
-
-3. Serverless - https://github.com/sagar-malhotra/serverless
+##3. Serverless - https://github.com/sagar-malhotra/serverless
 The Serveless repository contains the lambda function code responsible for handling the user verfication process after sign up and the github action workflow responsible for deploying the lambda function. For more information please visit the repository from the link attached above.
